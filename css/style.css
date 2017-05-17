@@ -1,0 +1,299 @@
+header {
+  position: fixed;
+  top: 0;
+  background: #e82243;
+  height: 1rem;
+  width: 100%;
+  display: flex;
+}
+header .saoyisao {
+  width: 0.96rem;
+  font: 0.32rem / 1rem "microsoft yahei";
+  color: #ffffff;
+  text-align: center;
+}
+header .xuanxiangka {
+  flex: 1;
+}
+header .xuanxiangka ul {
+  width: 100%;
+}
+header .xuanxiangka ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+header .xuanxiangka ul li {
+  float: left;
+  padding: 0.34rem;
+}
+header .xuanxiangka ul li a {
+  display: block;
+  color: #ffffff;
+  font-size: 0.24rem;
+  padding: 2px;
+}
+header .xuanxiangka ul li a.active {
+  border-bottom: 1px solid #ffffff;
+}
+header .serch {
+  width: 0.96rem;
+  font: 0.32rem / 1rem "microsoft yahei";
+  color: #ffffff;
+  text-align: center;
+}
+.main {
+  width: 100%;
+  margin-bottom: 0.76rem;
+}
+.main .banner {
+  width: 100%;
+  height: 4.44rem;
+  background: #000000;
+}
+.main .today-news {
+  width: 100%;
+}
+.main .today-news .news-title {
+  height: 0.6rem;
+  width: 100%;
+}
+.main .today-news .news-title p {
+  font-size: 0.24rem;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  line-height: 0.6rem;
+}
+.main .today-news ul {
+  width: 100%;
+}
+.main .today-news ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.main .today-news ul li {
+  width: 3.19rem;
+  float: left;
+  height: 1.59rem;
+  border: 1px solid #bfc3c6;
+  box-sizing: border-box;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.main .today-news ul li a img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+.main .today-news ul li:nth-child(odd) {
+  margin-right: 1px;
+  border-left: none;
+}
+.main .reports {
+  margin-top: 4px;
+  width: 100%;
+  height: 1.61rem;
+  background: url("http://img.createwit.com/d79eb3fe-cca1-4999-844e-39877c35c3c7.jpg?imageView2%2F2%2Fw%2F720%2Fh%2F720%2Fq%2F75%7Cimageslim") no-repeat center / cover;
+}
+.main .all-classify {
+  width: 100%;
+}
+.main .all-classify .classify-title {
+  height: 0.62rem;
+  width: 100%;
+}
+.main .all-classify .classify-title p {
+  font-size: 0.24rem;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  line-height: 0.6rem;
+}
+.main .all-classify .classify-list {
+  width: 100%;
+}
+.main .all-classify .classify-list ul {
+  width: 100%;
+}
+.main .all-classify .classify-list ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.main .all-classify .classify-list ul li {
+  width: 20%;
+  float: left;
+  height: 1.6rem;
+  border: 1px solid #bfc3c6;
+  box-sizing: border-box;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.main .all-classify .classify-list ul li a {
+  display: block;
+}
+.main .all-classify .classify-list ul li a .tupian {
+  height: 1.6rem;
+  width: 100%;
+}
+.main .all-classify .classify-list ul li a .tupian img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+.main .ad-two {
+  margin-top: 4px;
+  width: 100%;
+  height: 1.62rem;
+  background: url("http://img.createwit.com/b7f9ffe2-9de7-40c3-aeb9-a5c7b6d02027.jpg?imageView2%2F2%2Fw%2F720%2Fh%2F720%2Fq%2F75%7Cimageslim") no-repeat center / cover;
+}
+.main .hot-sale {
+  width: 100%;
+}
+.main .hot-sale .hot-title {
+  height: 0.59rem;
+  border-top: 3px solid #f6f6f6;
+  box-sizing: border-box;
+}
+.main .hot-sale .hot-title p {
+  font-size: 0.24rem;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  line-height: 0.6rem;
+}
+.main .hot-sale .hot-list ul {
+  width: 100%;
+  border-top: 2px solid #f8f8f8;
+}
+.main .hot-sale .hot-list ul:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.main .hot-sale .hot-list ul li {
+  width: 50%;
+  height: 4.05rem;
+  border: 2px solid #f8f8f8;
+  border-top: none;
+  float: left;
+  box-sizing: border-box;
+}
+.main .hot-sale .hot-list ul li a {
+  display: block;
+  padding-left: 0.18rem;
+  padding-right: 0.18rem;
+  padding-top: 0.26rem;
+}
+.main .hot-sale .hot-list ul li a .hot-list-tupian {
+  height: 2.7rem;
+  width: 100%;
+  overflow: hidden;
+}
+.main .hot-sale .hot-list ul li a .hot-list-tupian img {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+.main .hot-sale .hot-list ul li a .hot-list-maioshu {
+  height: 1.08rem;
+  width: 100%;
+}
+.main .hot-sale .hot-list ul li a .hot-list-maioshu .p1 {
+  font: 0.22rem / 0.4rem "microsoft yahei";
+}
+.main .hot-sale .hot-list ul li a .hot-list-maioshu .p1 span {
+  color: #c80307;
+  margin-right: 0.13rem;
+}
+.main .hot-sale .hot-list ul li a .hot-list-maioshu .p1 s {
+  color: #9b9b9b;
+}
+.main .hot-sale .hot-list ul li a .hot-list-maioshu .p2 {
+  font: 0.22rem / 0.4rem "microsoft yahei";
+  color: #000000;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 0.76rem;
+  width: 100%;
+  border-top: 2px solid #d7d7d7;
+  background: #FFFFFF;
+}
+footer nav ul {
+  display: flex;
+}
+footer nav ul li {
+  flex: 1;
+}
+footer nav ul li.active p {
+  color: #f61b44;
+}
+footer nav ul li.active .tu-home {
+  background: url("../img/home-se.png") no-repeat center / cover !important;
+}
+footer nav ul li.active .tu-menuClass {
+  background: url("../img/class-se.png") no-repeat center / cover !important;
+}
+footer nav ul li.active .tu-menuShop {
+  background: url("../img/shopcar-se.png") no-repeat center / cover !important;
+}
+footer nav ul li.active .tu-menuMy {
+  background: url("../img/me-se.png") no-repeat center / cover !important;
+}
+footer nav ul li a {
+  display: block;
+  height: 0.76rem;
+  text-align: center;
+  color: #fff;
+  box-sizing: border-box;
+}
+footer nav ul li a .tu {
+  height: 0.45rem;
+  padding-left: 40%;
+  padding-top: 0.13rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+footer nav ul li a .tu .tu-home {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url("../img/home.png") no-repeat center / cover;
+}
+footer nav ul li a .tu .tu-menuClass {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url("../img/class.png") no-repeat center / cover;
+}
+footer nav ul li a .tu .tu-menuShop {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url("../img/shopcar.png") no-repeat center / cover;
+}
+footer nav ul li a .tu .tu-menuMy {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url("../img/me.png") no-repeat center / cover;
+}
+footer nav ul li a p {
+  line-height: 0.31rem;
+  color: #999999;
+}
+.wode-header {
+  height: 3.93rem;
+  width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e92946+0,ee4454+50,f66465+100 */
+  background: #e92946;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e92946 0%, #ee4454 50%, #f66465 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e92946 0%, #ee4454 50%, #f66465 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e92946 0%, #ee4454 50%, #f66465 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e92946', endColorstr='#f66465', GradientType=0);
+  /* IE6-9 */
+}
